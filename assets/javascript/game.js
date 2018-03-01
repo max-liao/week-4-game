@@ -19,12 +19,12 @@ var game = {
     },
 
     buttons: function(){
-      var btnvalue = Math.floor(Math.random()*9 +1);
+      var btnvalue = Math.floor(Math.random()*12 +1);
       return btnvalue;
     },
     
     start: function(){
-      var initialnum = Math.floor(Math.random()*100);
+      var initialnum = Math.floor(Math.random()*102 + 19);
       game.userscore = 0;
       console.log("Creating initial random numbers");
       console.log("Player must make a score of " + initialnum);
